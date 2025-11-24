@@ -26,7 +26,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/tuist/Path", .upToNextMajor(from: "0.3.8")),
         .package(url: "https://github.com/apple/swift-log", .upToNextMajor(from: "1.6.2")),
-        .package(url: "https://github.com/freeblow/Mockable", .upToNextMajor(from: "main")),
+        .package(url: "https://github.com/freeblow/Mockable", branch: "main"),
     ],
     targets: [
         .target(
