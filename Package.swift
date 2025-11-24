@@ -15,7 +15,7 @@ import PackageDescription
 
 let package = Package(
     name: "Command",
-    platforms: [.macOS("13.0")],
+    platforms: [.macOS("11.0")],
     products: [
         .library(
             name: "Command",
@@ -26,7 +26,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/tuist/Path", .upToNextMajor(from: "0.3.8")),
         .package(url: "https://github.com/apple/swift-log", .upToNextMajor(from: "1.6.2")),
-        .package(url: "https://github.com/Kolos65/Mockable", .upToNextMajor(from: "0.3.0")),
+        .package(url: "https://github.com/freeblow/Mockable", .upToNextMajor(from: "main")),
     ],
     targets: [
         .target(
